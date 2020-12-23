@@ -1,0 +1,116 @@
+[T 01:55:27 85087] Reading configuration file /home/jjy/bug/new_unegg/unegg.db/working/tracing/compiler-tracing17035932412339213231.spec...
+[T 01:55:27 85087] Compilers file as of 2020-12-23 01:55:27
+[T 01:55:27 85087] Compiler pattern: **/configure
+[T 01:55:27 85087] Replace intercepted call: 0
+[T 01:55:27 85087] Extractor: <null>
+[T 01:55:27 85087] Compilers file as of 2020-12-23 01:55:27
+[T 01:55:27 85087] Compiler pattern: **/do-prebuild
+[T 01:55:27 85087] Replace intercepted call: 0
+[T 01:55:27 85087] Extractor: <null>
+[T 01:55:27 85087] Compilers file as of 2020-12-23 01:55:27
+[T 01:55:27 85087] Compiler pattern: **/collect2
+[T 01:55:27 85087] Replace intercepted call: 0
+[T 01:55:27 85087] Extractor: /home/jjy/tools/codeql/cpp/tools/linux64/extractor
+[T 01:55:27 85087] Prepend[0] "--linker"
+[T 01:55:27 85087] Prepend[1] "--semmle-linker-executable"
+[T 01:55:27 85087] Prepend[2] "${compiler}"
+[T 01:55:27 85087] Compilers file as of 2020-12-23 01:55:27
+[T 01:55:27 85087] Compiler pattern: **/lld*
+[T 01:55:27 85087] Replace intercepted call: 0
+[T 01:55:27 85087] Extractor: /home/jjy/tools/codeql/cpp/tools/linux64/extractor
+[T 01:55:27 85087] Prepend[0] "--linker"
+[T 01:55:27 85087] Prepend[1] "--semmle-linker-executable"
+[T 01:55:27 85087] Prepend[2] "${compiler}"
+[T 01:55:27 85087] Compilers file as of 2020-12-23 01:55:27
+[T 01:55:27 85087] Compiler pattern: **/*-ld*
+[T 01:55:27 85087] Replace intercepted call: 0
+[T 01:55:27 85087] Extractor: /home/jjy/tools/codeql/cpp/tools/linux64/extractor
+[T 01:55:27 85087] Prepend[0] "--linker"
+[T 01:55:27 85087] Prepend[1] "--semmle-linker-executable"
+[T 01:55:27 85087] Prepend[2] "${compiler}"
+[T 01:55:27 85087] Compilers file as of 2020-12-23 01:55:27
+[T 01:55:27 85087] Compiler pattern: **/ld*
+[T 01:55:27 85087] Replace intercepted call: 0
+[T 01:55:27 85087] Extractor: /home/jjy/tools/codeql/cpp/tools/linux64/extractor
+[T 01:55:27 85087] Prepend[0] "--linker"
+[T 01:55:27 85087] Prepend[1] "--semmle-linker-executable"
+[T 01:55:27 85087] Prepend[2] "${compiler}"
+[T 01:55:27 85087] Compilers file as of 2020-12-23 01:55:27
+[T 01:55:27 85087] Compiler pattern: **/armlink
+[T 01:55:27 85087] Replace intercepted call: 0
+[T 01:55:27 85087] Extractor: /home/jjy/tools/codeql/cpp/tools/linux64/extractor
+[T 01:55:27 85087] Prepend[0] "--arm-linker"
+[T 01:55:27 85087] Prepend[1] "--semmle-linker-executable"
+[T 01:55:27 85087] Prepend[2] "${compiler}"
+[T 01:55:27 85087] Compilers file as of 2020-12-23 01:55:27
+[T 01:55:27 85087] Compiler pattern: **/icpc
+[T 01:55:27 85087] Replace intercepted call: 0
+[T 01:55:27 85087] Extractor: /home/jjy/tools/codeql/cpp/tools/linux64/extractor
+[T 01:55:27 85087] Prepend[0] "--mimic"
+[T 01:55:27 85087] Prepend[1] "${compiler}"
+[T 01:55:27 85087] Compilers file as of 2020-12-23 01:55:27
+[T 01:55:27 85087] Compiler pattern: **/*++*
+[T 01:55:27 85087] Replace intercepted call: 0
+[T 01:55:27 85087] Extractor: /home/jjy/tools/codeql/cpp/tools/linux64/extractor
+[T 01:55:27 85087] Prepend[0] "--mimic"
+[T 01:55:27 85087] Prepend[1] "${compiler}"
+[T 01:55:27 85087] Compilers file as of 2020-12-23 01:55:27
+[T 01:55:27 85087] Compiler pattern: **/*cc*
+[T 01:55:27 85087] Replace intercepted call: 0
+[T 01:55:27 85087] Extractor: /home/jjy/tools/codeql/cpp/tools/linux64/extractor
+[T 01:55:27 85087] Prepend[0] "--mimic"
+[T 01:55:27 85087] Prepend[1] "${compiler}"
+[T 01:55:27 85087] Compilers file as of 2020-12-23 01:55:27
+[T 01:55:27 85087] Compiler pattern: **/*clang*
+[T 01:55:27 85087] Replace intercepted call: 0
+[T 01:55:27 85087] Extractor: /home/jjy/tools/codeql/cpp/tools/linux64/extractor
+[T 01:55:27 85087] Prepend[0] "--mimic"
+[T 01:55:27 85087] Prepend[1] "${compiler}"
+[T 01:55:27 85087] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 01:55:27 85087]   ELF 64-bit x86-64.
+[T 01:55:27 85087]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 01:55:27 85087] Reading configuration file /home/jjy/bug/new_unegg/unegg.db/working/tracing/compiler-tracing17035932412339213231.spec...
+[T 01:55:27 85087] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 01:55:27 85087] ==== Candidate to intercept: /home/jjy/tools/codeql/tools/linux64/runner-linux (canonical: /home/jjy/tools/codeql/tools/linux64/runner-linux) ====
+[T 01:55:27 85087] Recognising file, first four bytes: { 23, 21, 2f, 62 }
+[T 01:55:27 85087]   #!.
+[T 01:55:27 85087] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 01:55:27 85087]   ELF 64-bit x86-64.
+[T 01:55:27 85087]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 01:55:27 85087] Reading configuration file /home/jjy/bug/new_unegg/unegg.db/working/tracing/compiler-tracing17035932412339213231.spec...
+[T 01:55:27 85087] ==== Candidate to intercept: /home/jjy/tools/codeql/cpp/tools/autobuild.sh (canonical: /home/jjy/tools/codeql/cpp/tools/autobuild.sh) ====
+[T 01:55:27 85088] Recognising file, first four bytes: { 23, 21, 2f, 62 }
+[T 01:55:27 85088]   #!.
+[T 01:55:27 85088] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 01:55:27 85088]   ELF 64-bit x86-64.
+[T 01:55:27 85088]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 01:55:27 85088] Reading configuration file /home/jjy/bug/new_unegg/unegg.db/working/tracing/compiler-tracing17035932412339213231.spec...
+[T 01:55:27 85088] ==== Candidate to intercept: /home/jjy/tools/codeql/cpp/tools/do-prebuild (canonical: /home/jjy/tools/codeql/cpp/tools/do-prebuild) ====
+[T 01:55:27 85088] === Intercepted call to /home/jjy/tools/codeql/cpp/tools/do-prebuild === 
+[T 01:55:27 85088] Disabling tracing for this command.
+[T 01:55:27 85089] Recognising file, first four bytes: { 23, 21, 2f, 62 }
+[T 01:55:27 85089]   #!.
+[T 01:55:27 85089] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 01:55:27 85089]   ELF 64-bit x86-64.
+[T 01:55:27 85089]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 01:55:27 85096] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 01:55:27 85096]   ELF 64-bit x86-64.
+[T 01:55:27 85096]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 01:55:27 85097] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 01:55:27 85097]   ELF 64-bit x86-64.
+[T 01:55:27 85097]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 01:55:27 85098] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 01:55:27 85098]   ELF 64-bit x86-64.
+[T 01:55:27 85098]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 01:55:27 85102] Recognising file, first four bytes: { 23, 21, 2f, 62 }
+[T 01:55:27 85102]   #!.
+[T 01:55:27 85102] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 01:55:27 85102]   ELF 64-bit x86-64.
+[T 01:55:27 85102]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 01:55:27 85102] Reading configuration file /home/jjy/bug/new_unegg/unegg.db/working/tracing/compiler-tracing17035932412339213231.spec...
+[T 01:55:27 85102] ==== Candidate to intercept: /home/jjy/tools/codeql/cpp/tools/do-build (canonical: /home/jjy/tools/codeql/cpp/tools/do-build) ====
+[T 01:55:27 85103] Recognising file, first four bytes: { 7f, 45, 4c, 46 }
+[T 01:55:27 85103]   ELF 64-bit x86-64.
+[T 01:55:27 85103]   PH#1: PT_DYNAMIC or PT_INTERP - so dynamic.
+[T 01:55:27 85103] Reading configuration file /home/jjy/bug/new_unegg/unegg.db/working/tracing/compiler-tracing17035932412339213231.spec...
+[T 01:55:27 85103] ==== Candidate to intercept: /bin/readlink (canonical: /bin/readlink) ====

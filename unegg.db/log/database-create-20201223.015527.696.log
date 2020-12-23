@@ -1,0 +1,66 @@
+[2020-12-23 01:55:27] This is codeql database create unegg.db -s ./ -j 0 -l cpp
+[2020-12-23 01:55:27] Log file was started late.
+[2020-12-23 01:55:27] Using autobuild script /home/jjy/tools/codeql/cpp/tools/autobuild.sh.
+[2020-12-23 01:55:27] [DETAILS] database create> Detected autobuild command: /home/jjy/tools/codeql/cpp/tools/autobuild.sh.
+[2020-12-23 01:55:27] [PROGRESS] database create> Running command [/home/jjy/tools/codeql/cpp/tools/autobuild.sh] in /home/jjy/bug/new_unegg.
+[2020-12-23 01:55:27] Running plumbing command: codeql database trace-command --working-dir=/home/jjy/bug/new_unegg -- /home/jjy/bug/new_unegg/unegg.db /home/jjy/tools/codeql/cpp/tools/autobuild.sh
+[2020-12-23 01:55:27] [PROGRESS] database trace-command> /home/jjy/bug/new_unegg/unegg.db: Running in /home/jjy/bug/new_unegg: [/home/jjy/tools/codeql/cpp/tools/autobuild.sh]
+[2020-12-23 01:55:27] Setting up tracing from specification at /home/jjy/tools/codeql/cpp/tools/linux64/compiler-tracing.spec.
+[2020-12-23 01:55:27] [build-err] + TOOLS_DIR=/home/jjy/tools/codeql/cpp/tools
+[2020-12-23 01:55:27] [build] detect_source_root: Using build system found in '.'
+[2020-12-23 01:55:27] [build-err] + /home/jjy/tools/codeql/cpp/tools/detect_source_root
+[2020-12-23 01:55:27] [build-err] + '[' -L _lgtm_detected_source_root ']'
+[2020-12-23 01:55:27] [build-err] ++ readlink _lgtm_detected_source_root
+[2020-12-23 01:55:27] [build-err] + cd .
+[2020-12-23 01:55:27] [build-err] + export CXXFLAGS=-fpermissive
+[2020-12-23 01:55:27] [build-err] + CXXFLAGS=-fpermissive
+[2020-12-23 01:55:27] [build-err] + configure_prefix_opt=
+[2020-12-23 01:55:27] [build-err] + '[' -f configure.ac ']'
+[2020-12-23 01:55:27] [build-err] + '[' -f configure.in ']'
+[2020-12-23 01:55:27] [build-err] + '[' -f CMakeLists.txt ']'
+[2020-12-23 01:55:27] [build-err] + mkdir -p _lgtm_build_dir
+[2020-12-23 01:55:27] [build-err] + cd _lgtm_build_dir
+[2020-12-23 01:55:27] [build-err] + CMAKE_WRAPPER=/opt/work/autobuild/cmake-wrapper
+[2020-12-23 01:55:27] [build-err] + '[' -x /opt/work/autobuild/cmake-wrapper ']'
+[2020-12-23 01:55:27] [build-err] + CMAKE_WRAPPER=cmake
+[2020-12-23 01:55:27] [build-err] + cmake -DCMAKE_VERBOSE_MAKEFILE=ON -DBUILD_DOCS=OFF -DCATKIN_ENABLE_TESTING=OFF -DBUILD_DOCUMENTATION=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-fpermissive ..
+[2020-12-23 01:55:27] [build] -- Configuring done
+[2020-12-23 01:55:27] [build] -- Generating done
+[2020-12-23 01:55:27] [build-err] CMake Warning:
+[2020-12-23 01:55:27] [build-err]   Manually-specified variables were not used by the project:
+[2020-12-23 01:55:27] [build] -- Build files have been written to: /home/jjy/bug/new_unegg
+[2020-12-23 01:55:27] [build-err]     BUILD_DOCS
+[2020-12-23 01:55:27] [build-err]     BUILD_DOCUMENTATION
+[2020-12-23 01:55:27] [build-err]     CATKIN_ENABLE_TESTING
+[2020-12-23 01:55:27] [build-err] + exit 0
+[2020-12-23 01:55:27] [build-err] + '[' -L _lgtm_detected_source_root ']'
+[2020-12-23 01:55:27] [build-err] ++ readlink _lgtm_detected_source_root
+[2020-12-23 01:55:27] [build-err] + cd .
+[2020-12-23 01:55:27] [build-err] + '[' -d _lgtm_build_dir ']'
+[2020-12-23 01:55:27] [build-err] + cd _lgtm_build_dir
+[2020-12-23 01:55:27] [build] Semmle autobuild: no supported build system detected.
+[2020-12-23 01:55:27] [build-err] + '[' -f SConstruct ']'
+[2020-12-23 01:55:27] [build-err] + '[' -f wscript ']'
+[2020-12-23 01:55:27] [build-err] + '[' -f Makefile ']'
+[2020-12-23 01:55:27] [build-err] + '[' -f makefile ']'
+[2020-12-23 01:55:27] [build-err] + '[' -f GNUmakefile ']'
+[2020-12-23 01:55:27] [build-err] + '[' -f build.ninja ']'
+[2020-12-23 01:55:27] [ERROR] Spawned process exited abnormally (code 1; tried to run: [/home/jjy/tools/codeql/tools/linux64/preload_tracer, /home/jjy/tools/codeql/cpp/tools/autobuild.sh])
+[2020-12-23 01:55:27] [build-err] + '[' -d ../_lgtm_build_dir ']'
+[2020-12-23 01:55:27] [build-err] + cd ..
+[2020-12-23 01:55:27] [build-err] + for f in build build.sh
+[2020-12-23 01:55:27] [build-err] + '[' -x build ']'
+[2020-12-23 01:55:27] [build-err] + for f in build build.sh
+[2020-12-23 01:55:27] [build-err] + '[' -x build.sh ']'
+[2020-12-23 01:55:27] [build-err] + '[' -f setup.py ']'
+[2020-12-23 01:55:27] [build-err] + echo 'Semmle autobuild: no supported build system detected.'
+[2020-12-23 01:55:27] [build-err] + exit 1
+[2020-12-23 01:55:27] Exception caught at top level: Exit status 1 from command: [/home/jjy/tools/codeql/cpp/tools/autobuild.sh]
+                      com.semmle.cli2.database.DatabaseProcessCommandCommon.executeSubcommand(DatabaseProcessCommandCommon.java:101)
+                      com.semmle.cli2.picocli.PlumbingRunner.run(PlumbingRunner.java:110)
+                      com.semmle.cli2.picocli.SubcommandCommon.runPlumbingInProcess(SubcommandCommon.java:159)
+                      com.semmle.cli2.database.CreateCommand.executeSubcommand(CreateCommand.java:113)
+                      com.semmle.cli2.picocli.SubcommandCommon.call(SubcommandCommon.java:430)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:201)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:209)
+                      com.semmle.cli2.CodeQL.main(CodeQL.java:91)

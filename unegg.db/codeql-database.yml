@@ -1,0 +1,26 @@
+---
+sourceLocationPrefix: "/home/jjy/bug/new_unegg"
+unicodeNewlines: false
+columnKind: "utf8"
+primaryLanguage: "cpp"
+inProgress:
+  primaryLanguage: "cpp"
+  installedExtractors:
+    cpp:
+    - "file:///home/jjy/tools/codeql/cpp/"
+    csharp:
+    - "file:///home/jjy/tools/codeql/csharp/"
+    csv:
+    - "file:///home/jjy/tools/codeql/csv/"
+    go:
+    - "file:///home/jjy/tools/codeql/go/"
+    java:
+    - "file:///home/jjy/tools/codeql/java/"
+    javascript:
+    - "file:///home/jjy/tools/codeql/javascript/"
+    properties:
+    - "file:///home/jjy/tools/codeql/properties/"
+    python:
+    - "file:///home/jjy/tools/codeql/python/"
+    xml:
+    - "file:///home/jjy/tools/codeql/xml/"
